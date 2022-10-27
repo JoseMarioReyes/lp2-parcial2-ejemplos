@@ -10,7 +10,7 @@ namespace constructor_setter_getter
         private string PrimerNombre;
         private string SegundoNombre;
         private string PrimerApellido;
-        private string SegundoApellido;
+        private string SegundoApellido;      
 
         public Persona()
         { }
@@ -42,9 +42,15 @@ namespace constructor_setter_getter
             return this.PrimerNombre;
         }
 
+        public void Imprimir()
+        {
+            Console.WriteLine(getNombreCompleto());
+        }
+
         public string getNombreCompleto()
         {
             return $"{PrimerNombre} {SegundoNombre} {PrimerApellido} {SegundoApellido}";
         }
+
     }
 }

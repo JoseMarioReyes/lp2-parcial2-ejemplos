@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using constructor_setter_getter.getter_setter;
 
 namespace constructor_setter_getter
 {
@@ -9,9 +10,9 @@ namespace constructor_setter_getter
     {
         static void Main(string[] args)
         {
-            Persona unaPersona = new Persona("Jose", "Aguilar");
-            Console.WriteLine(unaPersona.getNombreCompleto());
-
+            Cuenta miCuenta = new Cuenta();
+            miCuenta.Saldo = 9000;
+            Console.WriteLine(miCuenta.Saldo);
             Console.ReadLine();
         }
     }
