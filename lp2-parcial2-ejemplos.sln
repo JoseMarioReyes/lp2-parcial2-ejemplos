@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31727.386
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "constructor-setter-getter", "constructor-setter-getter\constructor-setter-getter.csproj", "{105C36FB-0E38-4BF1-9AE9-2B73FD38D6AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "herencia", "herencia\herencia.csproj", "{D8B3AD59-3BC9-4B86-B8C1-9448A7D597CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{105C36FB-0E38-4BF1-9AE9-2B73FD38D6AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{105C36FB-0E38-4BF1-9AE9-2B73FD38D6AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{105C36FB-0E38-4BF1-9AE9-2B73FD38D6AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8B3AD59-3BC9-4B86-B8C1-9448A7D597CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8B3AD59-3BC9-4B86-B8C1-9448A7D597CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8B3AD59-3BC9-4B86-B8C1-9448A7D597CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8B3AD59-3BC9-4B86-B8C1-9448A7D597CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
