@@ -9,5 +9,24 @@ namespace herencia.ConHerencia
     {
         public decimal HorasTrabajadas { get; set; }
         public decimal PrecioPorHora { get; set; }
+
+        public EmpleadoPorHora(
+            string PrimerNombre,
+            string SegundoNombre,
+            string PrimerApellido,
+            string SegundoApellido,
+            string NumeroIdentificacion,
+            string Direccion,
+            string NumeroTelefono,
+            decimal HorasTrabajadas,
+            decimal PrecioPorHora
+            ) : base(PrimerNombre, SegundoNombre,
+                PrimerApellido, SegundoApellido, NumeroIdentificacion, Direccion, NumeroTelefono)
+        {
+            if (HorasTrabajadas >= 0 && PrecioPorHora >= 0)
+            {
+
+            }
+        }
     }
 }
