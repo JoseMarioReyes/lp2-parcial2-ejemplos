@@ -15,5 +15,19 @@ namespace herencia.ConHerencia
         public string Direccion { get; set; }
         public string NumeroTelefono { get; set; }
 
+        public Empleado(string PrimerNombre, string SegundoNombre,
+            string PrimerApellido, string SegundoApellido,
+            string NumeroIdentificacion, string Direccion,
+            string NumeroTelefono)
+        {
+            this.PrimerNombre = PrimerNombre;
+            this.SegundoNombre = SegundoNombre;
+            this.PrimerApellido = PrimerApellido;
+            this.SegundoApellido = SegundoApellido;
+            this.NumeroIdentificacion = NumeroIdentificacion;
+            this.Direccion = Direccion;
+            this.NumeroTelefono = NumeroTelefono;
+        }
+
     }
 }
