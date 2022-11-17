@@ -11,14 +11,22 @@ namespace herencia
     {
         static void Main(string[] args)
         {
-            EmpleadoPorHora unEmpleadoPorHora = new EmpleadoPorHora();
-            unEmpleadoPorHora.PrimerNombre = "Jose";
 
             //Creacion del objeto unEmpleadoPorComision, del tipo EmpleadoPorComision
             //Utilizando el constructor de la clase EmpleadoPorComision, que a su vez usa el contructor
             //de la clase padre Empleado.
             EmpleadoPorComision unEmpleadoPorComision = new EmpleadoPorComision("Jose", "Mario",
                 "Reyes", "Aguilar", "080100000", "Col. Pueblo Antiguo", "98979000", 4, 0);
+
+            /*
+             Llamando al metodo de la clase padre getNombreCompleto en el objeto
+            del tipo EmpleadoPorComision, que heredo de la clase Empleado.            
+             */
+
+            Console.WriteLine(unEmpleadoPorComision.getNombreCompleto());
+
+            Console.ReadLine();
+
         }
     }
 }

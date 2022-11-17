@@ -26,6 +26,14 @@ namespace herencia.ConHerencia
             {
                 this.Sueldo = Sueldo;
             }
+
+        }
+
+        //Implementacion de el metodo abstracto de la clase padre Empleado, usando la 
+        //palabra reservada override, para sobreescribirlo.
+        public override decimal calcularSueldo()
+        {
+            return Sueldo;
         }
     }
 }

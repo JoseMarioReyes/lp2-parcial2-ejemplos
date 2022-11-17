@@ -5,7 +5,8 @@ using System.Text;
 
 namespace herencia.ConHerencia
 {
-    class Empleado
+    //Clase marcada como abstracta.
+    abstract class Empleado
     {
         public string PrimerNombre { get; set; }
         public string SegundoNombre { get; set; }
@@ -14,7 +15,6 @@ namespace herencia.ConHerencia
         public string NumeroIdentificacion { get; set; }
         public string Direccion { get; set; }
         public string NumeroTelefono { get; set; }
-
         public Empleado(string PrimerNombre, string SegundoNombre,
             string PrimerApellido, string SegundoApellido,
             string NumeroIdentificacion, string Direccion,
@@ -28,6 +28,14 @@ namespace herencia.ConHerencia
             this.Direccion = Direccion;
             this.NumeroTelefono = NumeroTelefono;
         }
+
+        public string getNombreCompleto()
+        {
+            return $"{PrimerNombre} {SegundoNombre} {PrimerApellido} {SegundoApellido}";
+        }
+
+        //Definicion de un miembro abstracto.
+        public abstract decimal calcularSueldo();
 
     }
 }

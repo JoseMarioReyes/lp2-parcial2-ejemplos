@@ -28,5 +28,12 @@ namespace herencia.ConHerencia
 
             }
         }
+
+        //Implementacion de el metodo abstracto de la clase padre Empleado, usando la 
+        //palabra reservada override, para sobreescribirlo.
+        public override decimal calcularSueldo()
+        {
+            return HorasTrabajadas * PrecioPorHora;
+        }
     }
 }
