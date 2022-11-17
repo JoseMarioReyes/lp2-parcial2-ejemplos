@@ -31,7 +31,7 @@ namespace herencia.ConHerencia
         {
             if (PorcentajeComision >= 0 && TotalVentas >= 0)
             {
-                this.PorcentajeDeComision = PorcentajeDeComision;
+                this.PorcentajeDeComision = PorcentajeComision;
                 this.TotalVentas = TotalVentas;
             }
             else
@@ -46,7 +46,7 @@ namespace herencia.ConHerencia
         //palabra reservada override, para sobreescribirlo.
         public override decimal calcularSueldo()
         {
-            return TotalVentas * PorcentajeDeComision;
+            return TotalVentas * (PorcentajeDeComision / 100);
         }
     }
 }

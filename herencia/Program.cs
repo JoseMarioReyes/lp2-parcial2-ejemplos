@@ -16,14 +16,15 @@ namespace herencia
             //Utilizando el constructor de la clase EmpleadoPorComision, que a su vez usa el contructor
             //de la clase padre Empleado.
             EmpleadoPorComision unEmpleadoPorComision = new EmpleadoPorComision("Jose", "Mario",
-                "Reyes", "Aguilar", "080100000", "Col. Pueblo Antiguo", "98979000", 4, 0);
+                "Reyes", "Aguilar", "080100000", "Col. Pueblo Antiguo", "98979000", 4, 1000);
 
             /*
              Llamando al metodo de la clase padre getNombreCompleto en el objeto
             del tipo EmpleadoPorComision, que heredo de la clase Empleado.            
              */
 
-            Console.WriteLine(unEmpleadoPorComision.getNombreCompleto());
+            Console.WriteLine($"El nombre completo del empleado: {unEmpleadoPorComision.getNombreCompleto()}");
+            Console.WriteLine($"El sueldo del empleado es: {unEmpleadoPorComision.calcularSueldo()}");
 
             Console.ReadLine();
 
