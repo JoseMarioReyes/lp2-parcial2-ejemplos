@@ -37,5 +37,11 @@ namespace herencia.ConHerencia
         //Definicion de un miembro abstracto.
         public abstract decimal calcularSueldo();
 
+        //Metodo marcado como virtual para poder sobreescribirlo en las clases hijas.
+        public virtual void imprimirEnConsola()
+        {
+            Console.WriteLine(getNombreCompleto());
+        }
+
     }
 }

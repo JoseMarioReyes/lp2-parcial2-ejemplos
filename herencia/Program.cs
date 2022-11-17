@@ -25,6 +25,7 @@ namespace herencia
 
             Console.WriteLine($"El nombre completo del empleado: {unEmpleadoPorComision.getNombreCompleto()}");
             Console.WriteLine($"El sueldo del empleado es: {unEmpleadoPorComision.calcularSueldo()}");
+            unEmpleadoPorComision.imprimirEnConsola();
 
             Console.ReadLine();
 

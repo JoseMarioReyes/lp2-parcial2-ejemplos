@@ -48,5 +48,11 @@ namespace herencia.ConHerencia
         {
             return TotalVentas * (PorcentajeDeComision / 100);
         }
+
+        //Sobreescritura del metodo virtual de la clase padre.
+        public override void imprimirEnConsola()
+        {
+            Console.WriteLine($"El nombre del empleado por comision es: {this.getNombreCompleto()}");
+        }
     }
 }
