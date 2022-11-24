@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "herencia", "herencia\herenc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "example", "proyecto\example.csproj", "{97E52FA8-08A1-4F2B-97B3-70B2EC4F4CE3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "composicion-agregacion", "composicion-agregacion\composicion-agregacion\composicion-agregacion.csproj", "{ABFB32B7-01B0-4A28-976A-BF3A8C8561AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{97E52FA8-08A1-4F2B-97B3-70B2EC4F4CE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97E52FA8-08A1-4F2B-97B3-70B2EC4F4CE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97E52FA8-08A1-4F2B-97B3-70B2EC4F4CE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABFB32B7-01B0-4A28-976A-BF3A8C8561AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABFB32B7-01B0-4A28-976A-BF3A8C8561AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABFB32B7-01B0-4A28-976A-BF3A8C8561AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABFB32B7-01B0-4A28-976A-BF3A8C8561AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
